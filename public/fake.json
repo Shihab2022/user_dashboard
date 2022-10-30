@@ -1,0 +1,42 @@
+[
+    {
+      "_id": "635dd0613e5b45bca4f80044",
+      "isActive": true,
+      "picture": "http://placehold.it/32x32",
+      "name": "House Vaughn",
+      "email": "housevaughn@pulze.com",
+      "role": "admin"
+    },
+    {
+      "_id": "635dd0616def562b37772230",
+      "isActive": false,
+      "picture": "http://placehold.it/32x32",
+      "name": "Carolyn Castillo",
+      "email": "carolyncastillo@pulze.com",
+      "role": "admin"
+    },
+    {
+      "_id": "635dd061e93606f6db3505c4",
+      "isActive": false,
+      "picture": "http://placehold.it/32x32",
+      "name": "Lambert Figueroa",
+      "email": "lambertfigueroa@pulze.com",
+      "role": "admin"
+    },
+    {
+      "_id": "635dd0618156e9906e19e89f",
+      "isActive": false,
+      "picture": "http://placehold.it/32x32",
+      "name": "Edna Bowers",
+      "email": "ednabowers@pulze.com",
+      "role": "admin"
+    },
+    {
+      "_id": "635dd06140d815424c8f6407",
+      "isActive": false,
+      "picture": "http://placehold.it/32x32",
+      "name": "Richards Cooper",
+      "email": "richardscooper@pulze.com",
+      "role": "admin"
+    }
+  ]
