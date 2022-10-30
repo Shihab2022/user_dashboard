@@ -6,7 +6,7 @@ const Dashboard = () => {
         <div class="min-h-full">
             
             <header class="">
-          <div class="mx-auto max-w-7xl py-2 px-4 sm:px-6 flex justify-between lg:px-8">
+          <div class="mx-auto max-w-7xl py-5 px-4 sm:px-6 flex justify-between lg:px-8">
      <div>
      <h1 class="text-3xl font-bold tracking-tight text-gray-900">Users</h1>
      <p className='text-zinc-500 font-semibold ml-2'>37 users</p>
