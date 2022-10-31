@@ -1,5 +1,7 @@
 import React from "react";
 import { FaVolleyballBall, FaHive, FaUserFriends } from "react-icons/fa";
+import AreaCharts from "./AreaChart";
+import LineChart from "./LineChart";
 
 const ChartDashboard = () => {
   return (
@@ -81,10 +83,14 @@ const ChartDashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-green-800 h-96 w-full col-start-5 col-end-13"></div>
+            <div className=" h-96 w-full col-start-5 col-end-13">
+                <LineChart/>
+            </div>
           </div>
           <div className="grid grid-cols-3 gap-3">
-            <div className="h-64 w-full bg-zinc-400 rounded-md"></div>
+            <div className="h-64 w-full rounded-md">
+                <AreaCharts/>
+            </div>
             <div className="h-64 w-full bg-zinc-400 rounded-md"></div>
             <div className="h-64 w-full bg-zinc-400 rounded-md"></div>
           </div>
