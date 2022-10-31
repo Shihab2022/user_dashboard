@@ -1,72 +1,12 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import {Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import useGetChartData from '../hooks/GetChartData';
 
-const chartData=[
-    {
-        "month": "Mar",
-        "investment": 100000,
-        "sell": 241,
-        "revenue": 10401
-    },
-    {
-        "month": "Apr",
-        "investment": 200000,
-        "sell": 423,
-        "revenue": 24500
-    },
-    {
-        "month": "May",
-        "investment": 500000,
-        "sell": 726,
-        "revenue": 67010
-    },
-    {
-        "month": "Jun",
-        "investment": 500000,
-        "sell": 529,
-        "revenue": 40405
-    },
-    {
-        "month": "Jul",
-        "investment": 600000,
-        "sell": 601,
-        "revenue": 50900
-    },
-    {
-        "month": "Aug",
-        "investment": 700000,
-        "sell": 670,
-        "revenue": 61000
-    },
-    {
-        "month": "Sep",
-        "investment": 500000,
-        "sell": 60,
-        "revenue": 6000
-    },
-    {
-        "month": "Oct",
-        "investment": 800000,
-        "sell": 690,
-        "revenue": 5000
-    } ,
-    {
-        "month": "Nov",
-        "investment": 550000,
-        "sell": 570,
-        "revenue": 63000
-    },
-    {
-        "month": "Dec",
-        "investment": 400000,
-        "sell": 770,
-        "revenue": 63000
-    }
-]
+
 
 
 const ChartDashboard = () => {
-   
+   const [chartData]=useGetChartData()
  
     return (
         <AreaChart
