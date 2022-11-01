@@ -3,6 +3,7 @@ import { FaVolleyballBall, FaHive, FaUserFriends } from "react-icons/fa";
 import AreaCharts from "./AreaChart";
 import LineChart from "./LineChart";
 import PiCharts from "./PiCharts";
+import Profile from "./Profile";
 import TopProduct from "./TopProduct";
 
 const ChartDashboard = () => {
@@ -104,7 +105,9 @@ const ChartDashboard = () => {
           </div>
         </div>
 
-        <div className="w-full h-screen col-start-10 col-end-13 bg-amber-400"></div>
+        <div className="w-full h-screen col-start-10 col-end-13 rounded-md ">
+          <Profile/>
+        </div>
       </div>
     </>
   );
