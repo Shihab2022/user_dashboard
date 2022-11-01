@@ -17,7 +17,7 @@ const Earning = () => {
         <PieChart width={400} height={115}>
           <Pie
             data={data}
-            cx={209}
+            cx='50%'
             cy={100}
             startAngle={180}
             endAngle={30}
@@ -35,7 +35,7 @@ const Earning = () => {
             ))}
           </Pie>
         </PieChart>
-        <h1 className="text-2xl font-bold  absolute top-20 right-36">71%</h1>
+        <h1 className="text-2xl font-bold  absolute top-20 right-[43%]">71%</h1>
         <h1 className="text-center text-2xl font-bold mt-3 ml-10">$26,256</h1>
         <h1 className="text-center text-lg text-zinc-400  ml-10">Earning This Month</h1>
         <h1 className="text-center text-lg text-zinc-400 mt-3 ml-10"> <span className="text-base px-3 py-1 rounded-xl bg-green-100 text-green-600">+2.65%</span> From Previous Period</h1>
