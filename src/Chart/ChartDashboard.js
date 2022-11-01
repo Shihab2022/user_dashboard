@@ -3,6 +3,7 @@ import { FaVolleyballBall, FaHive, FaUserFriends } from "react-icons/fa";
 import AreaCharts from "./AreaChart";
 import LineChart from "./LineChart";
 import PiCharts from "./PiCharts";
+import TopProduct from "./TopProduct";
 
 const ChartDashboard = () => {
   return (
@@ -96,7 +97,10 @@ const ChartDashboard = () => {
 
               <PiCharts/>
             </div>
-            <div className="h-64 w-full bg-zinc-400 rounded-md"></div>
+            <div className="h-64 w-full p-5 rounded-md">
+
+              <TopProduct/>
+            </div>
           </div>
         </div>
 

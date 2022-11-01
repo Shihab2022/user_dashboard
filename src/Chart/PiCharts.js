@@ -1,9 +1,9 @@
 import React from 'react';
 import { PieChart, Pie,Cell } from 'recharts';
 const data = [
-    { name: 'Group A', value: 500 },
+    { name: 'Group A', value: 300 },
     { name: 'Group B', value: 100 },
-    { name: 'Group C', value: 300 },
+    { name: 'Group C', value: 500 },
   ];
   const COLORS = ['#0088FE', '#00C49F', '#FFBB28'];
 
