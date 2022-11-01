@@ -4,52 +4,52 @@ import useGetChartData from '../hooks/GetChartData';
 const data = [
     {
       "name": "Page A",
-      "uv": 4000,
-      "pv": 2400,
+      "uv": 1300,
+      "pv":1000,
       "amt": 2400
     },
     {
       "name": "Page B",
-      "uv": 3000,
-      "pv": 1398,
+      "uv": 1400,
+      "pv": 1100,
       "amt": 2210
     },
     {
       "name": "Page C",
       "uv": 2000,
-      "pv": 9800,
+      "pv": 1500,
       "amt": 2290
     },
     {
       "name": "Page D",
       "uv": 2780,
-      "pv": 3908,
+      "pv": 1350,
       "amt": 2000
     },
     {
       "name": "Page E",
       "uv": 1890,
-      "pv": 4800,
+      "pv": 1400,
       "amt": 2181
     },
     {
       "name": "Page F",
-      "uv": 2390,
-      "pv": 3800,
+      "uv": 1400,
+      "pv": 1100,
       "amt": 2500
     },
     {
       "name": "Page G",
-      "uv": 3490,
-      "pv": 4300,
+      "uv": 1300,
+      "pv": 1000,
       "amt": 2100
     }
   ]
 const AreaCharts = () => {
     const [chartData]=useGetChartData()
     return (
-        <AreaChart width={400} height={250} data={data}
-        margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+        <AreaChart width={350} height={250} data={data}
+        margin={{ top: 5, right: 5, left: 0, bottom: 0 }}>
         <defs>
           <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
             <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8}/>
@@ -60,7 +60,6 @@ const AreaCharts = () => {
             <stop offset="95%" stopColor="#82ca9d" stopOpacity={0}/>
           </linearGradient>
         </defs>
-        <XAxis dataKey="name" />
         <YAxis />
         <CartesianGrid strokeDasharray="3 3" />
         <Tooltip />
