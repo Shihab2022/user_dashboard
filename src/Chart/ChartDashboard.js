@@ -2,6 +2,7 @@ import React from "react";
 import { FaVolleyballBall, FaHive, FaUserFriends } from "react-icons/fa";
 import AreaCharts from "./AreaChart";
 import LineChart from "./LineChart";
+import PiCharts from "./PiCharts";
 
 const ChartDashboard = () => {
   return (
@@ -91,7 +92,10 @@ const ChartDashboard = () => {
             <div className="h-64 w-full rounded-md">
                 <AreaCharts/>
             </div>
-            <div className="h-64 w-full bg-zinc-400 rounded-md"></div>
+            <div className="h-64 w-full  rounded-md">
+
+              <PiCharts/>
+            </div>
             <div className="h-64 w-full bg-zinc-400 rounded-md"></div>
           </div>
         </div>
