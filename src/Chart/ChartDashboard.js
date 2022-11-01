@@ -45,7 +45,7 @@ const ChartDashboard = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-12 gap-2 my-5 rounded-md w-full">
+          <div className="grid grid-cols-12 gap-2 my-5 rounded-md w-full p-5 shadow-2xl">
             <div className=" p-5 h-96 w-full col-start-1 col-end-5">
               <p className="text-lg font-semibold mb-1">Overview</p>
               <div>
@@ -92,22 +92,22 @@ const ChartDashboard = () => {
                 <LineChart/>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-3">
-            <div className="h-64 w-full rounded-md">
+          <div className="grid grid-cols-3 gap-3 ">
+            <div className="h-72 w-full rounded-md shadow-2xl p-4">
                 <AreaCharts/>
             </div>
-            <div className="h-64 w-full  rounded-md">
-
+            <div className="h-72 w-full  rounded-md  shadow-2xl p-5">
+<h1 className="text-xl font-semibold">Order Status</h1>
               <PiCharts/>
             </div>
-            <div className="h-64 w-full p-5 rounded-md">
+            <div className="h-72 w-full  rounded-md shadow-2xl p-6">
 
               <TopProduct/>
             </div>
           </div>
         </div>
 
-        <div className="w-full h-screen col-start-10 col-end-13 rounded-md ">
+        <div className="w-full col-start-10 col-end-13 rounded-md shadow-2xl ">
           <Profile/>
           <Earning/>
           <Activity/>

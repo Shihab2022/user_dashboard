@@ -8,7 +8,7 @@ const COLORS = ["#0088FE"];
 const Earning = () => {
   return (
     <div>
-      <div className="flex justify-between">
+      <div className="flex justify-between px-5">
         <h4 className="text-xl font-semibold">Earning</h4>
         <HiOutlineExclamationCircle className=" text-2xl " />
       </div>

@@ -20,7 +20,7 @@ const TopProduct = () => {
             </div>
             <div className='flex justify-between items-center mt-2'>
                 <div className='flex '>
-                    <p className='text-2xl px-3 py-2 bg-sky-500 rounded-xl shadow-md font-bold text-white'>#1</p>
+                    <p className='text-2xl px-3 py-2 bg-sky-500 rounded-xl shadow-md font-bold text-white'>#2</p>
                    <div className='ml-3'>
                    <h1 className='text-lg text-zinc-500'>Hoodie For Man</h1>
                    <h1 className='text-xl font-semibold'>$23.02</h1>
@@ -30,7 +30,7 @@ const TopProduct = () => {
             </div>
             <div className='flex justify-between items-center mt-2'>
                 <div className='flex '>
-                    <p className='text-2xl px-3 py-2 bg-sky-500 rounded-xl shadow-md font-bold text-white'>#1</p>
+                    <p className='text-2xl px-3 py-2 bg-sky-500 rounded-xl shadow-md font-bold text-white'>#3</p>
                    <div className='ml-3'>
                    <h1 className='text-lg text-zinc-500'>Red Color Cap</h1>
                    <h1 className='text-xl font-semibold'>$22.5</h1>

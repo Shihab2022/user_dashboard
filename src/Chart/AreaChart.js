@@ -60,7 +60,7 @@ const AreaCharts = () => {
             <stop offset="95%" stopColor="#82ca9d" stopOpacity={0}/>
           </linearGradient>
         </defs>
-        <YAxis />
+        {/* <YAxis /> */}
         <CartesianGrid strokeDasharray="3 3" />
         <Tooltip />
         <Area type="monotone" dataKey="uv" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
