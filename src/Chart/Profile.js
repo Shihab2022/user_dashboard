@@ -24,7 +24,7 @@ const Profile = () => {
                 <h1 className='text-sm text-zinc-400'>Followers</h1>
             </div>
           </div>
-          <hr class="my-8 h-px bg-gray-500 border-0 dark:bg-gray-500"></hr>
+          <hr class="my-3 h-px bg-gray-500 border-0 dark:bg-gray-500"></hr>
         </>
        
     );

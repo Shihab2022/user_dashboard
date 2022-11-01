@@ -1,6 +1,7 @@
 import React from "react";
 import { FaVolleyballBall, FaHive, FaUserFriends } from "react-icons/fa";
 import AreaCharts from "./AreaChart";
+import Earning from "./Earning";
 import LineChart from "./LineChart";
 import PiCharts from "./PiCharts";
 import Profile from "./Profile";
@@ -107,6 +108,7 @@ const ChartDashboard = () => {
 
         <div className="w-full h-screen col-start-10 col-end-13 rounded-md ">
           <Profile/>
+          <Earning/>
         </div>
       </div>
     </>
